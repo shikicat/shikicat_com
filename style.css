@@ -4,7 +4,13 @@ body {
 	margin-right: 12.5%;
 	font-family: 'Palatino Linotype', 'Georgia', 'Times New Roman', serif;
 	font-size: larger;
-	background-image: url("images/websiteBG-01.png");
+	background-image: url("images/websiteBG.png");
+	background-size:     cover; 
+	background-repeat:   no-repeat;
+    background-position: center top;
+    overflow: scroll;
+    height: 2000px;
+    width: 1276px;
 	
 }
 
