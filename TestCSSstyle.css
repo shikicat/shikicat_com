@@ -1,0 +1,98 @@
+body {
+	background: rgb(227, 229, 255);
+	font-family: 'Lato', 'Arial', serif;
+	 }
+
+div {
+	margin: 10%;
+    }
+
+
+div.box1 {
+	color: blue; /*content (text) color*/
+	background: MediumSeaGreen; /*content background color*/
+	text-align: center;
+	border: 25px dotted rgb(255, 165, 0); /*define outline*/
+	padding: 100px 50px; /*space between content and border*/
+	outline: 40px solid DodgerBlue; /*define outline*/
+	outline-offset: 20px;
+	/*outline-offset: 30px 50px; /*space between border and outline*/
+    margin: 10% auto; /*space between outline and edge of browser window*/	
+	max-width: 300px;
+	max-height: 100px;
+}
+
+.box2 {
+	/*color: gray; /*content (text) color*/
+	background: lightSeaGreen; /*content background color*/
+	text-align: center;
+	border-width: 18px;
+	border-style: dotted groove;
+	border-color: RoyalBlue red Green; /*define outline*/
+	border-radius: 5px 20px 50px 100px;
+	padding: 60px; /*space between content and border*/
+	outline-style: dotted;
+	outline-width: 10px;
+	outline-color: DarkBlue; /*define outline*/
+	outline-offset: 30px;
+	/*outline-offset: 30px 50px; /*space between border and outline*/
+    margin: 10% auto; /*space between outline and edge of browser window*/	
+	max-width: 300px;
+	max-height: 100px;
+}
+
+
+.header {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#testID {text-align: center;
+         color: red;
+         }
+
+
+h1 {
+    text-align: center;
+    color: rgb(255, 99, 71);
+}
+
+h2 {
+    text-align: left;
+    color: SlateBlue;
+}
+
+h3 {
+    text-align: right;
+    color: rgb(255, 165, 0);
+}
+
+
+
+#myavatar {
+	display: block;
+	margin: 0 auto;
+	width: 128px;
+	border-radius: 50%;
+	box-shadow: 8px 8px 8px #cccccc;
+}
+
+#myname {
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+	/*Below is code to create the navigation bar. */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    width: 60px;
+    background-color: #dddddd;
+}
