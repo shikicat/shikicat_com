@@ -1,14 +1,27 @@
 body {
 	background: rgb(227, 229, 255);
-	font-family: 'Lato', 'Arial', serif;
+	font-family: Lato,Verdana,Arial,Helvetica, sans-serif;
 	 }
 
 div {
-	margin: 10%;
+	margin: 1em;
     }
 
+a {
+    text-decoration: none; /*remove underlines from links*/
+  }
 
-div.box1 {
+ div.wideText {letter-spacing: 5px;}
+ div.narText {letter-spacing: -2px;}
+ div.upCase {text-transform: uppercase;
+ 			 text-shadow: 4px 4px LightBlue;}
+ div.backward {direction: rtl;}
+ div.normal {font-weight: normal;}
+ div.light {font-weight: lighter;}
+ div.thick {font-weight: bold;}
+ div.thicker {font-weight: 900;}
+
+ div.box1 {
 	color: blue; /*content (text) color*/
 	background: MediumSeaGreen; /*content background color*/
 	text-align: center;
@@ -17,7 +30,7 @@ div.box1 {
 	outline: 40px solid DodgerBlue; /*define outline*/
 	outline-offset: 20px;
 	/*outline-offset: 30px 50px; /*space between border and outline*/
-    margin: 10% auto; /*space between outline and edge of browser window*/	
+    margin: 100px 300px; /*space between outline and edge of browser window*/	
 	max-width: 300px;
 	max-height: 100px;
 }
@@ -42,10 +55,6 @@ div.box1 {
 }
 
 
-.header {
-	margin: 0 auto;
-	text-align: center;
-}
 
 #testID {text-align: center;
          color: red;
@@ -55,6 +64,15 @@ div.box1 {
 h1 {
     text-align: center;
     color: rgb(255, 99, 71);
+}
+
+div.just {
+	margin: 0 auto;
+	color: green;
+	border: 1px solid gray;
+	max-width: 100px;
+	max-height: 100px;
+    text-align: justify;
 }
 
 h2 {
@@ -67,20 +85,6 @@ h3 {
     color: rgb(255, 165, 0);
 }
 
-
-
-#myavatar {
-	display: block;
-	margin: 0 auto;
-	width: 128px;
-	border-radius: 50%;
-	box-shadow: 8px 8px 8px #cccccc;
-}
-
-#myname {
-	font-weight: bold;
-	font-style: italic;
-}
 
 
 	/*Below is code to create the navigation bar. */
